@@ -1,0 +1,39 @@
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Builds
+dist/
+**/dist/
+dev-dist/
+**/dev-dist/
+build/
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Base de datos local
+*.db
+*.db-journal
+*.sqlite
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# TypeScript
+*.tsbuildinfo

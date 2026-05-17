@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Fondo -->
+  <rect width="512" height="512" rx="96" fill="#2563eb"/>
+
+  <!-- Huella de pata (paw print) centrada -->
+  <!-- Almohadilla central grande -->
+  <ellipse cx="256" cy="310" rx="80" ry="68" fill="white"/>
+
+  <!-- Dedo superior izquierdo -->
+  <ellipse cx="158" cy="218" rx="38" ry="46" fill="white"/>
+  <!-- Dedo superior centro-izquierda -->
+  <ellipse cx="215" cy="188" rx="38" ry="46" fill="white"/>
+  <!-- Dedo superior centro-derecha -->
+  <ellipse cx="297" cy="188" rx="38" ry="46" fill="white"/>
+  <!-- Dedo superior derecho -->
+  <ellipse cx="354" cy="218" rx="38" ry="46" fill="white"/>
+</svg>
