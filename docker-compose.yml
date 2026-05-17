@@ -1,0 +1,20 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+      - "5173:5173"
+    volumes:
+      - ./backend/src:/app/backend/src
+      - db_data:/app/data
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: file:/app/data/dev.db
+      PORT: "3000"
+      FRONTEND_URL: http://localhost:5173
+    # frontend se agrega aquí cuando se scaffoldee React
+
+volumes:
+  db_data:
